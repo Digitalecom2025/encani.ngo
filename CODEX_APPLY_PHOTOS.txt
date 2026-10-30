@@ -1,0 +1,34 @@
+Arrange the supplied Enćani photographs and existing content within this current project. Keep the current build’s design and functionality. The separate team-page addition is paused.
+
+Before editing, read:
+- reference/encani-photo-arrangement/client-brief.pdf or client-brief.txt in full.
+- docs/encani-photo-arrangement/PLACEMENT_GUIDE.md.
+- docs/encani-photo-arrangement/BRIEF_PAGE_REQUIREMENTS.json.
+- lib/encani-photo-arrangement.json, encani-people-arrangement.json and encani-social-arrangement.json.
+- AGENTS.md if present, the actual current pages/components, and middleware.ts.
+
+The original client brief controls wording, subject relationships and photographic scroll journeys. Keep six separate main navigation pages: Home, Our Praxis, From Praxis, About, Shop and Support. Preserve the existing design system, typefaces, colours, layout components, editorial work, dependency lockfile, real database and media.
+
+Apply the prepared asset assignments to the actual rendered pages. About, Shop and Support were recently implemented through local rewrites to app/about/organisation, app/shop/collections and app/support/sustain; inspect the current routing before changing a file. Update the component the route actually renders. Do not create competing pages or new navigation items.
+
+Use the original Enćani logo exactly, without cropping/recolouring it. Connect the supplied social links to the existing footer/navigation. Preserve logo proportions and source photographs. Crop hints are starting suggestions: review framing at desktop/mobile widths and preserve hands, faces, books and plants when they carry the story. Avoid upscaling the small Noosim/Marley photographs into full-screen heroes. Set appropriate dimensions, descriptive alt text and loading priority using the existing image component conventions.
+
+Home: use plant-learning for the arrival, collective-conversation where the existing introduction needs an image, and political-education for the closing if it fits the existing layout. Retain the exact arrival and closing wording in the brief. Use meaningful images and varied scroll pacing, not a new design or a large generic gallery.
+
+African Healing Praxis: retain entry → understanding → methodology → The Work → knowledge holders → living curriculum, the four propositions, seven methods, all six projects and all 13 practitioner categories. Place dialogical-learning, shared-reading, land-based-learning, outdoor-practice-circle and poetry-collective-practice in the specifically mapped method sections. Preserve the organiser-as-healer argument and links to About/From Praxis.
+
+Knowledge: use the source-matched political-education photograph with its truthful context. Cooperative Praxis: use cooperative-healing-spaces only as supporting material from that legacy programme; preserve the commons/living economies/women-Olmaroroi/building-the-commons sequence. Do not label this group photo as Olmaroroi or a specific research community.
+
+The upload does not conclusively identify Hii Ni Africa, TBI or named indigenous research photographs. Keep those exact programme/project photo assignments pending in the report; do not populate them by guessing. Preserve any existing correctly attributed photographs. The old homepage’s Sankofa use of the African Poetry filename conflicts with the source label: do not carry that assignment forward.
+
+About: populate the existing Our People and Our Practitioners sections with the five supplied photo/name/role records. Roles are from uploaded filenames, not full biographies. No organisational subgroup is supplied; do not invent Trustee, Advisory Council or Secretariat membership, biographies or credentials. Do not create a separate team page as part of this task.
+
+From Praxis: attach first-year-praxis and healing-is-struggle covers only to their corresponding actual historical articles, if those records exist. Do not generate articles, alter publication dates or attach them to unrelated starter records. Shop: preserve the current three collections and shop-in-preparation state; there are no product photos in this upload. Support: preserve the existing three enquiry paths, validation, stored records and accurate payment notices.
+
+Suggested captions are visual/contextual descriptions, not original photographer captions. Credit/date/location fields are unknown unless explicitly supplied. Keep unresolved source notes in the review report, rather than placing internal task notes in the visitor interface.
+
+Change only photo placement, supplied names/roles/social links, and the ordering of existing sections where the original brief requires it. Keep source originals intact. Do not reset databases, overwrite local editorial changes, restructure the application, replace the current design or deploy.
+
+Validate every new file reference. Review direct loads/refreshes, existing anchor links, image framing, captions and responsive layouts on the actual six pages. Run appropriate typecheck/build checks after edits; capture the final build result and exit code. If browser automation is unavailable, provide a manual visual checklist and mark those checks unverified.
+
+Produce a concise report listing applied page/section/image assignments, any section reorder, confirmed checks and unresolved photograph attribution. Do not claim complete brief compliance or finished visual QA without inspecting the actual pages.

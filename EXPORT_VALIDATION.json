@@ -1,0 +1,17 @@
+{
+  "source_commit": "ffacb1c25ee8857e72f5cea1042a65957e1e43e1",
+  "application_source": "byte-identical to original checkout",
+  "dependency_versions_and_lockfile": "preserved",
+  "export_changes": [
+    "local database migration script",
+    "typecheck script",
+    "local migration config",
+    "references and Codex handover"
+  ],
+  "typecheck": "passed",
+  "local_d1_schema_migration": "passed on Linux with Wrangler 4.92.0",
+  "original_production_build": "passed on original checkout before export",
+  "windows_startup": "not verified",
+  "browser_layout_and_end_to_end_flows": "not verified",
+  "hosted_database_records_and_later_uploads_included": false
+}
